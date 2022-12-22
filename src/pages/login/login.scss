@@ -1,0 +1,158 @@
+.loginDiv {
+    width: 42%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 84px;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    & .heading {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+        color: #091C3F;
+    }
+
+    & .ErrorMessage {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #DA4436;
+    }
+
+    & .label {
+        font-size: 14px;
+        padding-bottom: 10px;
+        color: #091C3F;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    & .mobileDiv {
+        width: 90%;
+        padding: 20px;
+    }
+
+    & .otpinfo {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color: #091C3F;
+    }
+
+    & .inputBox {
+        background: #FFFFFF;
+        border: 1px solid #B7C3D9;
+        border-radius: 8px;
+        height: 49px;
+        margin-bottom: 5px;
+        color: #091C3F;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    & .ant-input {
+        color: #091C3F;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    & .Error {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #DA4436;
+    }
+
+    & .memberShip {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #51668C;
+        cursor: pointer;
+    }
+
+    & .otpButton {
+        background: #1987FB;
+        border-radius: 32px;
+        padding: 12px 35px;
+        height: auto;
+        color: #FFFFFF
+    }
+
+    & .disabledBtn {
+        background: #91c0f1;
+        pointer-events: none;
+        border: none;
+        border-radius: 32px;
+        padding: 12px 35px;
+        height: auto;
+        color: #FFFFFF
+    }
+
+    & .disableresend {
+        cursor: not-allowed;
+        opacity: 0.4;
+    }
+
+    & .resendButton {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #1987FB;
+        cursor: pointer;
+        padding-top: 32px;
+    }
+}
+
+.login-top-div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #ECF5FF;
+    transition: all 500ms ease;
+}
+
+
+@media (max-width:767px) {
+    .loginDiv {
+        width: 94%;
+        padding: 64px 0px;
+        text-align: center;
+        margin-top: 14%;
+        position: relative;
+        transform: none;
+        top: inherit;
+        left: inherit;
+
+        & .heading {
+            font-size: 24px;
+            line-height: 31px;
+            padding: 0px 65px 15px 65px;
+        }
+
+        & .label {
+            font-size: 12px;
+        }
+
+        & .otpinfo {
+            font-size: 16px;
+        }
+
+        .mobileDiv {
+            width: 98%;
+            padding: 6px 16px;
+        }
+    }
+}

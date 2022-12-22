@@ -1,0 +1,42 @@
+.InvestmentPage {
+  padding: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  & .loansDiv {
+    width: 32%;
+  }
+  & .investmentsDiv {
+    width: 65%;
+    padding-top: 56px;
+    & .mutualFunddDiv {
+      background: whitesmoke;
+      border-radius: 16px;
+      padding-bottom: 10px;
+    }
+  }
+
+  & .assetsDiv {
+    & .assetsFundDiv {
+      background: whitesmoke;
+      border-radius: 16px;
+      padding: 20px;
+
+      button {
+        float: right;
+        background: radial-gradient(
+          131.25% 131.25% at 0 -12.5%,
+          #ffa39d 0,
+          #f93a2e 100%
+        );
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        height: auto;
+        padding: 5px 10px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}

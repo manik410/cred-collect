@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 90%;
+  width: 100%;
+  background: #fff;
+  font-family: 'Gilroy' !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src:url('../assets/font/HKGrotesk-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GilroyBold';
+  src:url('../assets/font/Gilroy-Bold/font.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+@media screen and (max-device-width: 900px) and (orientation: landscape) {
+  .WrapScreen {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@import '~antd/dist/antd.css';

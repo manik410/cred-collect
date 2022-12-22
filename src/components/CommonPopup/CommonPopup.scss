@@ -1,0 +1,79 @@
+.model-top-div {
+    top: 0;
+    text-align: center;
+}
+
+.ant-modal-wrap {
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-modal-body {
+    padding: 52px 59px;
+}
+
+.ant-modal-content {
+    border-radius: 8px;
+}
+
+.top-header-div {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #51668C;
+
+}
+
+.top-header-div-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1987FB;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.brand-image-div {
+    padding: 16px 0px;
+}
+
+.description-text-div {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #263859;
+
+}
+
+.button-div-popup {
+    background: #1987FB;
+    border-radius: 32px;
+    width: 101px;
+    height: 48px;
+    border: 1px solid #1987FB;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .ant-modal-body {
+        padding: 46px 20px;
+    }   
+}

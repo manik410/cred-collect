@@ -1,0 +1,32 @@
+.ErrorDiv {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.ErrorBody {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99099999;
+    display: block;
+
+    & .errorImage {
+        width: 35%;
+        margin: auto;
+    }
+
+    & .errorContent {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        color: #091C3F;
+    }
+}

@@ -1,0 +1,79 @@
+.dialogDiv {
+    width: 45%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 70px;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    img {
+        width: 100%;
+    }
+
+    & .imageDiv {
+        width: 15%;
+        margin: auto;
+    }
+
+    & .messageDiv {
+        padding: 33px 34px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: #091C3F;
+    }
+
+    & .confirmButton {
+        background: #1987FB;
+        border-radius: 32px;
+        padding: 12px 35px;
+        margin: 12px 8px;
+        height: auto;
+        color: #FFFFFF;
+    }
+
+    & .cancelButton {
+        background: #FFFFFF;
+        border: 1px solid #B7C3D9;
+        border-radius: 32px;
+        padding: 12px 35px;
+        margin: 12px 8px;
+        height: auto;
+        color: #091C3F;
+    }
+
+    & .buttonsDiv {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .dialogDiv {
+        width: 94%;
+        padding: 64px 0px;
+        text-align: center;
+        margin-top: 14%;
+        position: relative;
+        transform: none;
+        top: inherit;
+        left: inherit;
+
+        & .messageDiv {
+            padding: 30px 10px;
+            font-size: 20px;
+        }
+    }
+}
+
+// @media(min-width:1367px){
+//     .dialogDiv {
+//         margin: 100px auto;
+//     }
+// }

@@ -1,0 +1,32 @@
+.recommendedCard {
+  background: #ffffff;
+  & .packageInfo {
+    height: 75vh;
+    overflow: scroll;
+    padding: 38px 20px 0px 20px;
+    & .heading {
+      font-size: 20px;
+      padding: 0px 20px 40px 20px;
+      text-align: center;
+      color: #1987fb;
+    }
+
+    & .linkLoanCard {
+      padding-top: 10px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+      width: 90%;
+      background: radial-gradient(
+        143.86% 887.35% at -10.97% -22.81%,
+        #9b9cf8 0,
+        #8082ed 100%
+      );
+      margin: 20px;
+      & p {
+        padding: 0px 10px 0px 10px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+}
